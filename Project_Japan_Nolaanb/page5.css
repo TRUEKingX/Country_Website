@@ -1,0 +1,15 @@
+*{
+	background-color: yellow;
+}
+
+.Food{
+	color: brown;
+	border-style: dashed;
+	border-color: orange;
+	background-color: red;
+}
+
+#Pics img{
+	border-style: ridge;
+	border-color: black;
+}

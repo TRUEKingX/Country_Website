@@ -1,0 +1,44 @@
+*{
+	background-color:black;
+}
+
+#History{
+	color:white;
+	border-style:solid;
+	border-color:red;
+}
+
+#Picture1 img{
+	border-style:solid;
+	border-color:red;
+	
+}
+
+#Picture1 img:hover{
+	width: 500px;
+	transition: 2s;
+	height:500px;
+	border-color:white;
+	border-radius: 0px 20px 20px 0px;
+	box-shadow: 10px 10px 5px red;
+	border-style: outset;
+	transition: 2s;
+}
+
+#Picture2 img{
+	border-style:solid;
+	border-color:red;
+	
+}
+	
+#Picture2 img:hover{
+	width: 500px;
+	transition: 2s;
+	height:500px;
+	border-color:white;
+	border-radius: 0px 20px 20px 0px;
+	box-shadow: 10px 10px 5px red;
+	border-style: outset;
+	transition: 2s;
+}
+	

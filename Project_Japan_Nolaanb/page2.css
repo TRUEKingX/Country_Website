@@ -1,0 +1,17 @@
+*{
+	background-color:orange;
+	border-style: dotted;
+	border-color: red;
+}
+
+.Geography img{
+	border-style: inset;
+	border-color: black;
+}
+
+#Paragraph{
+	color: red;
+	border-style: outset;
+	background-color: black;
+	border-color: white;
+}
