@@ -1,0 +1,20 @@
+*{
+	background-color: red;
+}
+
+.Para{
+	border-style: outset;
+	color: white;
+	border-color: black;
+}
+
+
+.Para:Hover{
+	border-style: inset;
+	transition: 1s;
+}
+
+#Pics img{
+	border-style: ridge;
+	border-color: black;
+}

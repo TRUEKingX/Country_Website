@@ -1,0 +1,72 @@
+*{
+  font-family:Comic Sans MS;
+  background-color: black;
+}
+
+#banner{
+	color: red;
+}
+
+body{
+  margin:0 auto; /* sets top and bottom margins to 0 and right and left margins to auto(equal) */
+}
+.container{
+  display:flex;
+}
+.container *{
+  flex:1;
+}
+a{
+  text-decoration:none;
+}
+nav{
+  background-color:red;
+  box-shadow:2px 2px 2px gray;
+}
+nav a{
+  color:white;
+  padding:10px;
+}
+nav a:hover{
+  background-color:white;
+  color:black;
+}
+#banner{
+  padding:5px;
+  text-align:center;
+  background-color: orange;
+}
+#links{  
+  flex-direction:column;
+  max-width:100px;   /* Use max-width (instead of width) for flex item */
+  background-color: orange;
+  color: red;
+}
+#links a{
+  font-size:8pt;
+  color:white;
+  padding:5px 10px 5px 10px;  
+  box-shadow:2px 2px 2px gray;
+  background-color: orange;
+}
+#links a:hover{
+  background-color:rgb(200,200,200);
+}
+.center{
+  justify-content:center;
+  align-items:center; 
+  text-align:center;
+}
+#footer{
+  background-color:red;
+  color:white;
+  font-size:8pt;
+}
+
+#left img{
+	border-style: solid;
+}
+
+#right img{
+	border-style: solid;
+}
